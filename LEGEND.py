@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 from telegram.error import TelegramError
 
-TELEGRAM_BOT_TOKEN = '7248587968:AAEsQFgweeIhsRwMH4nD2uKINX_DGpzpGaQ'
+TELEGRAM_BOT_TOKEN = '7559269842:AAF4oT10jxgfFy_V7yG34AofZRaJJxXETPU'
 ADMIN_USER_ID = 6539807903  
 bot_access_free = True
 
@@ -16,7 +16,7 @@ attacked_ips = set()
 MAX_ATTACK_DURATION = 240
 
 # Cooldown period (in seconds) after an attack is initiated
-COOLDOWN_PERIOD = 50
+COOLDOWN_PERIOD = 100
 
 # Dictionary to store allowed users and their expiry timestamp.
 # If expiry is None, then access never expires.
